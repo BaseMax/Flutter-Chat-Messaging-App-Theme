@@ -52,6 +52,15 @@ What I learn by doing or repeat this project?
 - How to use Google fonts?
 - Where is Flutter project config file?
 - How components and screens files works in flutter?
+- How detect Phone dark mode enabled or no?
+- How control theme style?
+- How share some config or global variable between all of components and screens?
+- etc...
+
+So do not be afraid to repeat something.
+
+Even if it sounds ridiculous, it helps you gain new experience and learn new things.
+And this is great.
 
 ### Acknowledgment
 
