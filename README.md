@@ -73,20 +73,15 @@ BorderSide
 BottomNavigationBarItem
 BottomNavigationBarThemeData
 BoxDecoration
-buildAppBar
-buildBottomNavigationBar
 Center
 CircleAvatar
 Color
 Column
 Container
-darkThemeData
-dotColor
 FloatingActionButton
 Icon
 IconThemeData
 InputDecoration
-lightThemeData
 MyHomePage
 Offset
 Padding
@@ -94,13 +89,11 @@ RoundedRectangleBorder
 Row
 SafeArea
 Stack
-super
 Text
 TextButton
 TextField
 TextStyle
 ThemeData
-WelcomeScreen
 ```
 
 ### How I extract function or Flutter element names?
