@@ -62,6 +62,66 @@ So do not be afraid to repeat something.
 Even if it sounds ridiculous, it helps you gain new experience and learn new things.
 And this is great.
 
+### Flutter methods/functions
+
+```dart
+AppBar
+AspectRatio
+AssetImage
+Body
+BorderSide
+BottomNavigationBarItem
+BottomNavigationBarThemeData
+BoxDecoration
+buildAppBar
+buildBottomNavigationBar
+Center
+CircleAvatar
+Color
+Column
+Container
+darkThemeData
+dotColor
+FloatingActionButton
+Icon
+IconThemeData
+InputDecoration
+lightThemeData
+MyHomePage
+Offset
+Padding
+RoundedRectangleBorder
+Row
+SafeArea
+Stack
+super
+Text
+TextButton
+TextField
+TextStyle
+ThemeData
+WelcomeScreen
+```
+
+### How I extract function or Flutter element names?
+
+Manualy search in all of project files via your IDE/editor with `:(\s*|)([a-zA-Z]+)\(` regex query.
+
+Or get names by running a PHP script:
+
+```php
+<?php
+$data = file_get_contents("all-files-code.txt");
+preg_match_all('/:(\s*|)([a-zA-Z]+)\(/i', $data, $matches);
+// print_r($matches[2]);
+foreach($matches[2] as $func) {
+	print $func . "\n";
+}
+?>
+```
+
+Remove duplicate lines and Sort function names Alphabetical with https://www.textfixer.com/tools/remove-duplicate-lines.php online service.
+
 ### Acknowledgment
 
 I saw an [Youtube video](https://www.youtube.com/watch?v=uiJF-ShOLyo) and It's encouraged me to repeat this project myself.
