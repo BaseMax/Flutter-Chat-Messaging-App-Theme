@@ -24,8 +24,9 @@ Check tools:
 
 ```bash
 $ flutter doctor -v
-$ flutter packages get
+$ flutter devices
 $ flutter pub get
+$ flutter packages get
 ```
 
 Build:
