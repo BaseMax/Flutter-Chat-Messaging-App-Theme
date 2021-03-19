@@ -46,6 +46,13 @@ What sources I did get help from:
 - https://www.geeksforgeeks.org/flutter-using-google-fonts/
 - https://pub.dev/documentation/google_fonts/latest/google_fonts/GoogleFonts-class.html
 
+
+What I learn by doing or repeat this project?
+
+- How to use Google fonts?
+- Where is Flutter project config file?
+- How components and screens files works in flutter?
+
 ### Acknowledgment
 
 I saw an [Youtube video](https://www.youtube.com/watch?v=uiJF-ShOLyo) and It's encouraged me to repeat this project myself.
