@@ -1,9 +1,25 @@
+import 'package:flutter_chat_messaging_app_theme/screens/welcome/welcome_screen.dart';
+import 'package:flutter_chat_messaging_app_theme/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
 }
 
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: lightThemeData(context),
+      darkTheme: darkThemeData(context),
+      home: WelcomeScreen(),
+    );
+  }
+}
+
+/*
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -62,3 +78,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+*/
